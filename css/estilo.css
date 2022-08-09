@@ -28,12 +28,6 @@ a:focus {
 }
 
 .conteudo-rede-social {
-  width: 120px;
-  height: 50px;
-  float: left;
-  padding: 2px;
-  display: inline-block;
-  margin-left: 40px;
 }
 
 .conteudo-main {
@@ -41,7 +35,6 @@ a:focus {
   height: 100%;
 
   border: 1px solid #151515;
-
   background-image: url(../img/fundo2.jpg);
   background-position: center;
   -webkit-background-size: cover;
@@ -54,6 +47,7 @@ a:focus {
 }
 
 .foto-perfil {
+  opacity: 0.7;
 }
 
 .foto-btt {
@@ -63,12 +57,11 @@ a:focus {
 }
 
 .h1-font {
-  margin-bottom: 10px;
-
+  margin-bottom: 1rem;
   font-family: "Anton", sans-serif;
   font-weight: normal;
   color: #e6e6e6;
-  font-size: 70px;
+  font-size: 2.8em;
   text-shadow: 0.1em 0.1em 0.2em black;
 }
 
@@ -482,7 +475,7 @@ header {
 
 .box-contato {
   width: 100%;
-  
+
   border: 2px solid #000;
   padding: 1rem;
   background-repeat: no-repeat;
@@ -498,10 +491,10 @@ header {
   margin: auto;
 }
 
-
 .box-disqus {
-  width: 50%;
-  height: auto;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  padding: 2rem;
 }
-
